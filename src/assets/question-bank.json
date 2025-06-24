@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "topic": "React",
+        "question": "What is the virtual DOM in React?",
+        "answer": "The virtual DOM is a lightweight JavaScript representation of the real DOM. React uses it to optimize updates by only re-rendering components that actually change."
+    },
+    {
+        "id": 2,
+        "topic": "React",
+        "question": "What are React hooks?",
+        "answer": "Hooks are functions that let you use state and other React features in functional components."
+    },
+    {
+        "id": 3,
+        "topic": "React",
+        "question": "What is JSX?",
+        "answer": "JSX is a syntax extension for JavaScript that looks similar to XML or HTML and is used with React to describe UI elements."
+    },
+    {
+        "id": 4,
+        "topic": "React",
+        "question": "What is a React component?",
+        "answer": "A React component is a reusable piece of UI that can have its own state and logic."
+    },
+    {
+        "id": 5,
+        "topic": "React",
+        "question": "What is the difference between a class component and a functional component?",
+        "answer": "Class components use ES6 classes and can have state and lifecycle methods, while functional components are functions that can use hooks for state and side effects."
+    },
+    {
+        "id": 6,
+        "topic": "React",
+        "question": "What is the useState hook?",
+        "answer": "useState is a React hook that lets you add state to functional components."
+    },
+    {
+        "id": 7,
+        "topic": "React",
+        "question": "What is the useEffect hook?",
+        "answer": "useEffect is a React hook that lets you perform side effects in functional components."
+    },
+    {
+        "id": 8,
+        "topic": "React",
+        "question": "What is prop drilling?",
+        "answer": "Prop drilling is the process of passing data from parent to child components through props, sometimes through many layers."
+    },
+    {
+        "id": 9,
+        "topic": "React",
+        "question": "What is context in React?",
+        "answer": "Context provides a way to pass data through the component tree without having to pass props down manually at every level."
+    },
+    {
+        "id": 10,
+        "topic": "React",
+        "question": "What is Redux?",
+        "answer": "Redux is a state management library often used with React to manage application state in a predictable way."
+    },
+    {
+        "id": 11,
+        "topic": "React",
+        "question": "What is a controlled component?",
+        "answer": "A controlled component is a component whose form data is handled by the React component's state."
+    },
+    {
+        "id": 12,
+        "topic": "React",
+        "question": "What is a pure component?",
+        "answer": "A pure component is a component that only re-renders when its props or state change."
+    },
+    {
+        "id": 13,
+        "topic": "React",
+        "question": "What is the key prop and why is it important?",
+        "answer": "The key prop helps React identify which items have changed, are added, or are removed in a list."
+    },
+    {
+        "id": 14,
+        "topic": "React",
+        "question": "What is React Router?",
+        "answer": "React Router is a library for routing in React applications, allowing navigation between different components."
+    },
+    {
+        "id": 15,
+        "topic": "React",
+        "question": "What is the difference between state and props?",
+        "answer": "State is managed within the component, while props are passed to the component from its parent."
+    },
+    {
+        "id": 16,
+        "topic": "React",
+        "question": "What is the useRef hook?",
+        "answer": "useRef is a React hook that returns a mutable ref object whose .current property is initialized to the passed argument."
+    },
+    {
+        "id": 17,
+        "topic": "React",
+        "question": "What is memoization in React?",
+        "answer": "Memoization is an optimization technique to cache the result of expensive function calls and return the cached result when the same inputs occur again."
+    },
+    {
+        "id": 18,
+        "topic": "React",
+        "question": "What is React.Fragment?",
+        "answer": "React.Fragment lets you group a list of children without adding extra nodes to the DOM."
+    },
+    {
+        "id": 19,
+        "topic": "React",
+        "question": "What is the useCallback hook?",
+        "answer": "useCallback is a React hook that returns a memoized callback function."
+    },
+    {
+        "id": 20,
+        "topic": "React",
+        "question": "What is the useMemo hook?",
+        "answer": "useMemo is a React hook that returns a memoized value."
+    },
+    {
+        "id": 21,
+        "topic": "HTML5",
+        "question": "What is the purpose of the <section> tag in HTML5?",
+        "answer": "The <section> tag defines a section in a document, such as chapters, headers, footers, or any other sections of the document."
+    },
+    {
+        "id": 22,
+        "topic": "HTML5",
+        "question": "What is localStorage in HTML5?",
+        "answer": "localStorage is a web storage object that allows you to store key-value pairs in a web browser with no expiration time."
+    },
+    {
+        "id": 23,
+        "topic": "HTML5",
+        "question": "What is the difference between <div> and <section>?",
+        "answer": "<div> is a generic container, while <section> represents a standalone section of content."
+    },
+    {
+        "id": 24,
+        "topic": "HTML5",
+        "question": "What is the <article> tag used for?",
+        "answer": "The <article> tag specifies independent, self-contained content."
+    },
+    {
+        "id": 25,
+        "topic": "HTML5",
+        "question": "What is the <nav> tag?",
+        "answer": "The <nav> tag defines navigation links in a document."
+    },
+    {
+        "id": 26,
+        "topic": "HTML5",
+        "question": "What is the <header> tag?",
+        "answer": "The <header> tag represents introductory content or a set of navigational links."
+    },
+    {
+        "id": 27,
+        "topic": "HTML5",
+        "question": "What is the <footer> tag?",
+        "answer": "The <footer> tag defines a footer for a document or section."
+    },
+    {
+        "id": 28,
+        "topic": "HTML5",
+        "question": "What is the <aside> tag?",
+        "answer": "The <aside> tag defines content aside from the content it is placed in, like sidebars."
+    },
+    {
+        "id": 29,
+        "topic": "HTML5",
+        "question": "What is the <figure> tag?",
+        "answer": "The <figure> tag specifies self-contained content, like illustrations, diagrams, or photos."
+    },
+    {
+        "id": 30,
+        "topic": "HTML5",
+        "question": "What is the <figcaption> tag?",
+        "answer": "The <figcaption> tag defines a caption for a <figure> element."
+    },
+    {
+        "id": 31,
+        "topic": "HTML5",
+        "question": "What is the <main> tag?",
+        "answer": "The <main> tag specifies the main content of a document."
+    },
+    {
+        "id": 32,
+        "topic": "HTML5",
+        "question": "What is the <mark> tag?",
+        "answer": "The <mark> tag highlights text."
+    },
+    {
+        "id": 33,
+        "topic": "HTML5",
+        "question": "What is the <time> tag?",
+        "answer": "The <time> tag defines a specific time or a range of time."
+    },
+    {
+        "id": 34,
+        "topic": "HTML5",
+        "question": "What is the <progress> tag?",
+        "answer": "The <progress> tag represents the progress of a task."
+    },
+    {
+        "id": 35,
+        "topic": "HTML5",
+        "question": "What is the <meter> tag?",
+        "answer": "The <meter> tag defines a scalar measurement within a known range."
+    },
+    {
+        "id": 36,
+        "topic": "HTML5",
+        "question": "What is the <details> tag?",
+        "answer": "The <details> tag specifies additional details that the user can view or hide."
+    },
+    {
+        "id": 37,
+        "topic": "HTML5",
+        "question": "What is the <summary> tag?",
+        "answer": "The <summary> tag defines a visible heading for a <details> element."
+    },
+    {
+        "id": 38,
+        "topic": "HTML5",
+        "question": "What is the <datalist> tag?",
+        "answer": "The <datalist> tag specifies a list of pre-defined options for input controls."
+    },
+    {
+        "id": 39,
+        "topic": "HTML5",
+        "question": "What is the <output> tag?",
+        "answer": "The <output> tag represents the result of a calculation."
+    },
+    {
+        "id": 40,
+        "topic": "HTML5",
+        "question": "What is the <canvas> tag?",
+        "answer": "The <canvas> tag is used to draw graphics on the fly via scripting (usually JavaScript)."
+    },
+    {
+        "id": 41,
+        "topic": "HTML5",
+        "question": "What is the <audio> tag?",
+        "answer": "The <audio> tag is used to embed sound content in documents."
+    },
+    {
+        "id": 42,
+        "topic": "HTML5",
+        "question": "What is the <video> tag?",
+        "answer": "The <video> tag is used to embed video content in documents."
+    },
+    {
+        "id": 43,
+        "topic": "HTML5",
+        "question": "What is the <source> tag?",
+        "answer": "The <source> tag specifies multiple media resources for media elements like <video> and <audio>."
+    },
+    {
+        "id": 44,
+        "topic": "HTML5",
+        "question": "What is the <track> tag?",
+        "answer": "The <track> tag is used to specify text tracks for <video> and <audio> elements."
+    },
+    {
+        "id": 45,
+        "topic": "HTML5",
+        "question": "What is the <template> tag?",
+        "answer": "The <template> tag holds client-side content that is not rendered when the page loads but can be instantiated later using JavaScript."
+    },
+    {
+        "id": 46,
+        "topic": "HTML5",
+        "question": "What is the <form> tag?",
+        "answer": "The <form> tag is used to create an HTML form for user input."
+    },
+    {
+        "id": 47,
+        "topic": "HTML5",
+        "question": "What is the <input> tag?",
+        "answer": "The <input> tag specifies an input field where the user can enter data."
+    },
+    {
+        "id": 48,
+        "topic": "HTML5",
+        "question": "What is the <label> tag?",
+        "answer": "The <label> tag defines a label for an <input> element."
+    },
+    {
+        "id": 49,
+        "topic": "HTML5",
+        "question": "What is the <fieldset> tag?",
+        "answer": "The <fieldset> tag is used to group related elements in a form."
+    },
+    {
+        "id": 50,
+        "topic": "HTML5",
+        "question": "What is the <legend> tag?",
+        "answer": "The <legend> tag defines a caption for a <fieldset> element."
+    },
+    {
+        "id": 51,
+        "topic": "CSS3",
+        "question": "What is Flexbox in CSS3?",
+        "answer": "Flexbox is a CSS3 layout model that allows responsive alignment and distribution of space among items in a container."
+    },
+    {
+        "id": 52,
+        "topic": "CSS3",
+        "question": "How do you create a CSS3 animation?",
+        "answer": "You can create animations using the @keyframes rule and the animation property."
+    },
+    {
+        "id": 53,
+        "topic": "CSS3",
+        "question": "What is the CSS box model?",
+        "answer": "The CSS box model describes the rectangular boxes generated for elements, consisting of content, padding, border, and margin."
+    },
+    {
+        "id": 54,
+        "topic": "CSS3",
+        "question": "What is the difference between margin and padding?",
+        "answer": "Margin is the space outside the border, while padding is the space between the content and the border."
+    },
+    {
+        "id": 55,
+        "topic": "CSS3",
+        "question": "What is a CSS selector?",
+        "answer": "A CSS selector is a pattern used to select the elements you want to style."
+    },
+    {
+        "id": 56,
+        "topic": "CSS3",
+        "question": "What is a pseudo-class?",
+        "answer": "A pseudo-class is used to define a special state of an element, like :hover or :active."
+    },
+    {
+        "id": 57,
+        "topic": "CSS3",
+        "question": "What is a pseudo-element?",
+        "answer": "A pseudo-element is used to style specified parts of an element, like ::before or ::after."
+    },
+    {
+        "id": 58,
+        "topic": "CSS3",
+        "question": "What is a media query?",
+        "answer": "A media query is a CSS technique used to apply styles based on device characteristics like screen size or resolution."
+    },
+    {
+        "id": 59,
+        "topic": "CSS3",
+        "question": "What is CSS specificity?",
+        "answer": "CSS specificity determines which CSS rule is applied by the browsers when multiple rules could apply to the same element."
+    },
+    {
+        "id": 60,
+        "topic": "CSS3",
+        "question": "What is the difference between inline, block, and inline-block elements?",
+        "answer": "Inline elements do not start on a new line and only take up as much width as necessary. Block elements start on a new line and take up the full width. Inline-block elements are like inline elements, but you can set width and height."
+    },
+    {
+        "id": 61,
+        "topic": "CSS3",
+        "question": "What is the z-index property?",
+        "answer": "The z-index property specifies the stack order of an element."
+    },
+    {
+        "id": 62,
+        "topic": "CSS3",
+        "question": "What is the difference between absolute and relative positioning?",
+        "answer": "Absolute positioning positions the element relative to its first positioned ancestor, while relative positioning positions the element relative to its normal position."
+    },
+    {
+        "id": 63,
+        "topic": "CSS3",
+        "question": "What is the difference between visibility: hidden and display: none?",
+        "answer": "visibility: hidden hides the element but it still takes up space, while display: none removes the element from the layout."
+    },
+    {
+        "id": 64,
+        "topic": "CSS3",
+        "question": "What is a CSS preprocessor?",
+        "answer": "A CSS preprocessor is a scripting language that extends CSS and compiles it into regular CSS, like SASS or LESS."
+    },
+    {
+        "id": 65,
+        "topic": "CSS3",
+        "question": "What is the difference between rem and em units?",
+        "answer": "em is relative to the font-size of the element, while rem is relative to the font-size of the root element."
+    },
+    {
+        "id": 66,
+        "topic": "CSS3",
+        "question": "What is the difference between transition and animation in CSS?",
+        "answer": "Transition is used for simple state changes, while animation allows more complex sequences with keyframes."
+    },
+    {
+        "id": 67,
+        "topic": "CSS3",
+        "question": "What is the :nth-child() selector?",
+        "answer": ":nth-child() selects elements based on their position in a group of siblings."
+    },
+    {
+        "id": 68,
+        "topic": "CSS3",
+        "question": "What is the calc() function in CSS?",
+        "answer": "The calc() function allows you to perform calculations to determine CSS property values."
+    },
+    {
+        "id": 69,
+        "topic": "CSS3",
+        "question": "What is the object-fit property?",
+        "answer": "The object-fit property specifies how an <img> or <video> should be resized to fit its container."
+    },
+    {
+        "id": 70,
+        "topic": "CSS3",
+        "question": "What is the difference between float and flexbox?",
+        "answer": "Float is used for wrapping text around images, while flexbox is a layout model for distributing space and aligning items."
+    },
+    {
+        "id": 71,
+        "topic": "Website performance",
+        "question": "What is lazy loading?",
+        "answer": "Lazy loading is a technique that delays the loading of non-critical resources until they are needed to improve initial page load performance."
+    },
+    {
+        "id": 72,
+        "topic": "Website performance",
+        "question": "How does browser caching improve website performance?",
+        "answer": "Browser caching stores static resources locally, reducing the need to re-download them and speeding up subsequent page loads."
+    },
+    {
+        "id": 73,
+        "topic": "Website performance",
+        "question": "What is a CDN?",
+        "answer": "A CDN (Content Delivery Network) is a network of servers that deliver web content to users based on their geographic location."
+    },
+    {
+        "id": 74,
+        "topic": "Website performance",
+        "question": "What is minification?",
+        "answer": "Minification is the process of removing unnecessary characters from code to reduce file size."
+    },
+    {
+        "id": 75,
+        "topic": "Website performance",
+        "question": "What is code splitting?",
+        "answer": "Code splitting is a technique to split your code into smaller bundles which can then be loaded on demand."
+    },
+    {
+        "id": 76,
+        "topic": "Website performance",
+        "question": "What is tree shaking?",
+        "answer": "Tree shaking is a process of removing unused code from your final bundle."
+    },
+    {
+        "id": 77,
+        "topic": "Website performance",
+        "question": "What is critical rendering path?",
+        "answer": "The critical rendering path is the sequence of steps the browser goes through to convert HTML, CSS, and JavaScript into pixels on the screen."
+    },
+    {
+        "id": 78,
+        "topic": "Website performance",
+        "question": "What is the difference between synchronous and asynchronous loading of scripts?",
+        "answer": "Synchronous scripts block page rendering, while asynchronous scripts allow the page to continue loading."
+    },
+    {
+        "id": 79,
+        "topic": "Website performance",
+        "question": "What is prefetching?",
+        "answer": "Prefetching is a technique where resources are fetched in advance so they are available when needed."
+    },
+    {
+        "id": 80,
+        "topic": "Website performance",
+        "question": "What is preloading?",
+        "answer": "Preloading is a technique to load resources earlier in the page lifecycle."
+    },
+    {
+        "id": 81,
+        "topic": "Website performance",
+        "question": "What is the difference between GET and POST requests?",
+        "answer": "GET requests data from a server, while POST submits data to be processed to a server."
+    },
+    {
+        "id": 82,
+        "topic": "Website performance",
+        "question": "What is HTTP/2?",
+        "answer": "HTTP/2 is a major revision of the HTTP network protocol, improving performance through multiplexing, header compression, and more."
+    },
+    {
+        "id": 83,
+        "topic": "Website performance",
+        "question": "What is a service worker?",
+        "answer": "A service worker is a script that runs in the background and enables features like offline support and caching."
+    },
+    {
+        "id": 84,
+        "topic": "Website performance",
+        "question": "What is a web worker?",
+        "answer": "A web worker is a JavaScript script that runs in the background, independent of other scripts, without affecting the performance of the page."
+    },
+    {
+        "id": 85,
+        "topic": "Website performance",
+        "question": "What is the purpose of the defer attribute in script tags?",
+        "answer": "The defer attribute tells the browser to execute the script after the document has been parsed."
+    },
+    {
+        "id": 86,
+        "topic": "Website performance",
+        "question": "What is the difference between inline and external CSS?",
+        "answer": "Inline CSS is written within the HTML element, while external CSS is written in separate files and linked to the HTML."
+    },
+    {
+        "id": 87,
+        "topic": "Website performance",
+        "question": "What is the purpose of the async attribute in script tags?",
+        "answer": "The async attribute allows the script to be executed asynchronously as soon as it is available."
+    },
+    {
+        "id": 88,
+        "topic": "Website performance",
+        "question": "What is the impact of large images on website performance?",
+        "answer": "Large images increase page load time and can negatively affect user experience and SEO."
+    },
+    {
+        "id": 89,
+        "topic": "Website performance",
+        "question": "What is GZIP compression?",
+        "answer": "GZIP compression reduces the size of files sent from the server to increase the speed to which they are transferred to the browser."
+    },
+    {
+        "id": 90,
+        "topic": "Website performance",
+        "question": "What is lazy hydration?",
+        "answer": "Lazy hydration is a technique where interactive JavaScript is loaded only when needed, improving initial load performance."
+    },
+    {
+        "id": 91,
+        "topic": "Website security",
+        "question": "What is Cross-Site Scripting (XSS)?",
+        "answer": "XSS is a security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users."
+    },
+    {
+        "id": 92,
+        "topic": "Website security",
+        "question": "How can you prevent SQL injection attacks?",
+        "answer": "You can prevent SQL injection by using parameterized queries or prepared statements and validating user input."
+    },
+    {
+        "id": 93,
+        "topic": "Website security",
+        "question": "What is Cross-Site Request Forgery (CSRF)?",
+        "answer": "CSRF is an attack that tricks the victim into submitting a malicious request, often using their credentials."
+    },
+    {
+        "id": 94,
+        "topic": "Website security",
+        "question": "What is HTTPS?",
+        "answer": "HTTPS is the secure version of HTTP, using SSL/TLS to encrypt data between the browser and the server."
+    },
+    {
+        "id": 95,
+        "topic": "Website security",
+        "question": "What is Content Security Policy (CSP)?",
+        "answer": "CSP is a security standard that helps prevent XSS attacks by specifying which sources of content are allowed."
+    },
+    {
+        "id": 96,
+        "topic": "Website security",
+        "question": "What is CORS?",
+        "answer": "CORS (Cross-Origin Resource Sharing) is a mechanism that allows restricted resources on a web page to be requested from another domain."
+    },
+    {
+        "id": 97,
+        "topic": "Website security",
+        "question": "What is input validation?",
+        "answer": "Input validation is the process of ensuring that user input is clean, correct, and useful before processing."
+    },
+    {
+        "id": 98,
+        "topic": "Website security",
+        "question": "What is authentication?",
+        "answer": "Authentication is the process of verifying the identity of a user or system."
+    },
+    {
+        "id": 99,
+        "topic": "Website security",
+        "question": "What is authorization?",
+        "answer": "Authorization is the process of determining if a user has permission to access a resource."
+    },
+    {
+        "id": 100,
+        "topic": "Website security",
+        "question": "What is two-factor authentication?",
+        "answer": "Two-factor authentication is a security process in which the user provides two different authentication factors to verify themselves."
+    }
+]

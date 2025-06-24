@@ -1,0 +1,2 @@
+# Flash Cards
+A simple flash card game app designed to help candidates quickly revise essential web technology concepts. This app is an early prototype of a react application, that intends to showcase React components, using Redux store (implemented using Redux Toolkit).
